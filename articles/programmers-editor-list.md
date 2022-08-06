@@ -2,7 +2,7 @@
 title: "エディタまとめ (2022年版)"
 emoji: "📝"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["エディタ"]
+topics: ["エディタ", "VSCode", "Eclipse", "Android Studio", "vim", "neovim", "emacs"]
 published: true
 ---
 
