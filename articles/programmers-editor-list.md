@@ -40,6 +40,7 @@ ITエンジニアにとって欠かせない必須のツール「エディタ」
 | [Codespaces](#codespaces) | 有料 | GUI (デスクトップ、ブラウザ) | Windows,macOS,Linux | ? | 2021年8月11日 ([公式サイト](https://github.co.jp/features/codespaces) から引用) | - |
 | [CotEditor](#coteditor) | 無料 | GUI | macOS | Swift | 2009年5月1日 ([Wikipedia](https://ja.wikipedia.org/wiki/CotEditor) から引用) | 2022年7月30日 |
 | [Eclipse](#eclipse) | 無料 | GUI | Windows,macOS,Linux | Java [Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) | 2001年11月29日 ([Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) | 2022年6月15日 ([Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) |
+| [Editor](#editor) | 無料 | GUI | Windows,macOS,Linux | Go | 2020年1月3日 | 2022年7月26日 |
 | [EmEditor](#emeditor) | 無料 (有料版もあり) | GUI | Windows | | | 2022年6月23日　([公式ブログ](https://jp.emeditor.com/blog/) から引用) |
 | [Espresso](#espresso) | 有料 | GUI | macOS | |||
 | [Geany](#geany) | 無料 | GUI | Windows,macOS,Linux | C | | 2021年10月10日 |
@@ -1938,6 +1939,36 @@ Paiza といえば「プログラミングスキルチェック」が有名で�
 | 開発言語 | ? |
 | 初版リリース | 2017年12月5日 ([PR TIMES](https://prtimes.jp/main/html/rd/p/000000035.000012063.html) から引用) |
 | 最終アップデート | - |
+
+## 追記分
+
+### Editor
+
+https://github.com/jmigpin/editor
+
+> Source code editor in pure Go.
+
+Pure Go で書かれた、シンプルな見た目のエディタです。
+実際にインストールして使ってみた感じ、最初は操作方法もよくわからないくらいのシンプルさで戸惑いましたが、
+どうやらツールバーっぽいエリアに表示されているテキストボタン？上で右クリックをすると、次々とペインが開かれていって、フォルダツリーだったりファイルが開かれる仕組みのようです。
+誤解を恐れずに例えるなら、[i3](https://i3wm.org/) などのタイル型ウィンドウマネージャのエディタ版、でしょうか。(i3 使ったことないので雰囲気で言ってます)
+キーボードショートカットも README に書かれてありました。
+プラグイン機構もあるようで、ツールとしてしっかり作られている印象です。
+
+シンプルで機能が豊富なので、使い込んだら沼りそうな雰囲気を感じます。
+
+| 項目名 |  |
+| --- | --- |
+| 読み方 | エディター |
+| 公式サイト | https://github.com/jmigpin/editor |
+| 公式リポジトリ | https://github.com/jmigpin/editor |
+| Wikipedia | - |
+| 料金 | 無料 |
+| 種別 | GUI テキストエディタ |
+| 対応OS | Windows,macOS,Linux |
+| 開発言語 | Go |
+| 初版リリース | 2020年1月3日 |
+| 最終アップデート | 2022年7月26日 |
 
 ## 私にとっての最強のエディタ
 
