@@ -3,7 +3,7 @@ title: "VSCode キーボードショートカット辞書"
 emoji: "🐈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["VSCode"]
-published: false
+published: true
 ---
 
 ## なにこれ
