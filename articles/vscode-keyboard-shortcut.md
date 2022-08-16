@@ -16,6 +16,7 @@ VSCode のキーボードショートカットを覚えるために試行錯誤�
 
 以下、この記事の取扱説明として、
 - 以下にリストアップするのは、「キーボードショートカットビュー」で「ソース」が「既定」になっているものに限定しています。
+  - 拡張機能のショートカットキーは除外しています。
 - 「TODO:」は、これから動作を確認して詳細を追記していく予定です。
 - 「MEMO:」は、筆者の個人的な「使いたい度」をメモしてあります。
 - 呼称のブレがあるので、随時適切な呼称に訂正していきます。
@@ -37,7 +38,8 @@ VSCode のキーボードショートカットを覚えるために試行錯誤�
 
 ## A
 
-全選択
+- 全選択する
+- テストをすべて実行・デバッグする
 
 ### `Ctrl`+`A`
 
@@ -47,7 +49,16 @@ VSCode のキーボードショートカットを覚えるために試行錯誤�
 
 内容を全選択します。
 エディタエリアにフォーカスしているとき、フォーカスしているファイルの内容を全選択します。
+
+:::details image
+![Ctrl+A editor area](https://storage.googleapis.com/zenn-user-upload/e2e299c764d4-20220816.png)
+:::
+
 サイドバーにフォーカスしているとき、サイドバーの内容を全選択します。
+
+:::details image
+![Ctrl+A sidebar](https://storage.googleapis.com/zenn-user-upload/edf7ba25855b-20220816.png)
+:::
 
 #### list.selectAll
 
@@ -81,9 +92,15 @@ TODO:
 
 キーバインディングエディタでキーバインドを追加します。
 
+:::details image
+![Ctrl+K Ctrl+A](https://storage.googleapis.com/zenn-user-upload/e4d73e9740ea-20220816.png)
+:::
+
 ## B
 
-いろいろ
+- サイドバーの表示/非表示
+- ビルドタスクの実行
+- 選択アンカー
 
 ### `Ctrl`+`B`
 
@@ -92,6 +109,10 @@ TODO:
 コマンドID: `workbench.action.toggleSidebarVisibility`
 
 サイドバーの表示 / 非表示を切り替えます。
+
+:::details image
+![Ctrl+B sidebar](https://storage.googleapis.com/zenn-user-upload/d779fe77cb6e-20220816.png)
+:::
 
 ### `Ctrl`+`Shift`+`B`
 
