@@ -93,7 +93,7 @@ TODO:
 キーバインディングエディタでキーバインドを追加します。
 
 :::details image
-![Ctrl+K Ctrl+A](https://storage.googleapis.com/zenn-user-upload/e4d73e9740ea-20220816.png)
+![Ctrl+K Ctrl+A](https://storage.googleapis.com/zenn-user-upload/642169e52b39-20220817.gif)
 :::
 
 ## B
@@ -111,7 +111,7 @@ TODO:
 サイドバーの表示 / 非表示を切り替えます。
 
 :::details image
-![Ctrl+B sidebar](https://storage.googleapis.com/zenn-user-upload/d779fe77cb6e-20220816.png)
+![Ctrl+B](https://storage.googleapis.com/zenn-user-upload/76b44da9eaa9-20220817.gif)
 :::
 
 ### `Ctrl`+`Shift`+`B`
@@ -134,6 +134,10 @@ TODO:
 このキーの後に、選択アンカーの終点位置で `Ctrl`+`K` `Ctrl`+`K` をタイプすると、
 初期位置から終点位置までが選択状態になります。
 `Ecs` で選択アンカーを解除します。
+
+:::details image
+![Ctrl+K Ctrl+B](https://storage.googleapis.com/zenn-user-upload/2b3519f76efe-20220817.gif)
+:::
 
 ## C
 
