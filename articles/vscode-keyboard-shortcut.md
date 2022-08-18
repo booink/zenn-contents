@@ -151,12 +151,20 @@ TODO:
 
 エディタエリアの文字列をコピーします。
 
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/2c70da99e200-20220818.gif)
+:::
+
 #### keybindings.editor.copyKeybindingEntry
 
 コマンドID: `keybindings.editor.copyKeybindingEntry`
 <!-- "when": "inKeybindings && keybindingFocus && !whenFocus" -->
 
 キーボードショートカットビューで settings の json をコピーします。
+
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/639e89e65359-20220818.gif)
+:::
 
 #### problems.action.copy
 
@@ -165,12 +173,20 @@ TODO:
 パネルエリアの「Problems (問題)」タブにリストアップされている警告などを json 形式でコピーします。
 <!-- "when": "problemsVisibility && !relatedInformationFocus && focusedView == 'workbench.panel.markers.view'" -->
 
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/8d34851fcfbc-20220818.gif)
+:::
+
 #### search.action.copyMatch
 
 コマンドID: `search.action.copyMatch`
 <!-- "when": "fileMatchOrMatchFocus" -->
 
 アクティビティバーの「検索」が選択されていて(検索ビュー)、サイドバーにリストアップされている検索結果をコピーします。
+
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/463bff14554a-20220818.gif)
+:::
 
 #### ターミナル: 選択内容のコピー
 
@@ -179,12 +195,20 @@ TODO:
 
 パネルエリアの「ターミナル」で選択中の文字列をコピーします。
 
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/5c898cb28081-20220818.gif)
+:::
+
 #### filesExplorer.copy
 
 コマンドID: `filesExplorer.copy`
 <!-- "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus" -->
 
 アクティビティバーの「エクスプローラー」が選択されていて(エクスプローラービュー)、フォルダツリー内のファイルをコピーします。
+
+:::details image
+![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/b2c03e099674-20220818.gif)
+:::
 
 #### remote.tunnel.copyAddressInline
 
@@ -202,6 +226,10 @@ TODO:
 コマンドID: `toggleFindCaseSensitive`
 <!-- "when": "editorFocus" -->
 
+:::details image
+![Alt+C](https://storage.googleapis.com/zenn-user-upload/c2da31dd5b02-20220818.gif)
+:::
+
 エディタエリアで検索するとき、大文字 / 小文字の区別を切り替えます。
 
 #### toggleSearchCaseSensitive
@@ -211,6 +239,10 @@ TODO:
 
 アクティビティバーの「検索」が選択されていて(検索ビュー)、サイドバーで検索するとき、大文字 / 小文字の区別を切り替えます。
 
+:::details image
+![Alt+C](https://storage.googleapis.com/zenn-user-upload/111cc069ac80-20220818.gif)
+:::
+
 #### 検索エディター: 大文字と小文字の区別を切り替える
 
 コマンドID: `toggleSearchEditorCaseSensitive`
@@ -218,12 +250,20 @@ TODO:
 
 エディタエリアで「検索エディター」の入力フォームにフォーカスされているとき、大文字 / 小文字の区別を切り替えます。
 
+:::details image
+![Alt+C](https://storage.googleapis.com/zenn-user-upload/bee09c5190ec-20220818.gif)
+:::
+
 #### ターミナル: 大文字小文字を区別した検索に切り替える
 
 コマンドID: `workbench.action.terminal.toggleFindCaseSensitive`
 <!-- "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported" -->
 
 パネルエリアの「ターミナル」で検索するとき、大文字 / 小文字の区別を切り替えます。
+
+:::details image
+![Alt+C](https://storage.googleapis.com/zenn-user-upload/43c5edacee09-20220818.gif)
+:::
 
 ### `Ctrl`+`Shift`+`C`
 
@@ -234,6 +274,10 @@ TODO:
 
 パネルエリアの「ターミナル」で選択中の文字列をコピーします。
 TODO: `Ctrl`+`C` と同様？
+
+:::details image
+![Ctrl+Shift+C](https://storage.googleapis.com/zenn-user-upload/848c53b5724b-20220818.gif)
+:::
 
 #### 新しい外部ターミナルを開く
 
@@ -253,6 +297,10 @@ TODO: `Ctrl`+`C` と同様？
 アクティビティバーの「エクスプローラー」が選択されているとき(エクスプローラービュー)、アクティブなファイルの絶対パスをコピーします。
 (`Ctrl`+`K` `Ctrl`+`Shift`+`C` は「相対パス」をコピーします。)
 
+:::details image
+![Shift+Alt+C](https://storage.googleapis.com/zenn-user-upload/20844ce21224-20220818.gif)
+:::
+
 ### `Ctrl`+`K` `C`
 
 #### ファイル: クリップボードとアクティブ ファイルを比較
@@ -270,7 +318,11 @@ TODO:
 コマンドID: `editor.action.addCommentLine`
 <!-- "when": "editorTextFocus && !editorReadonly" -->
 
-エディタエリアで、行コメントを追加します。
+エディタエリアで、行コメントを追加 / 解除します。
+
+:::details image
+![Ctrl+K Ctrl+C](https://storage.googleapis.com/zenn-user-upload/c1bbddcfb60b-20220818.gif)
+:::
 
 #### ノートブック: セルの入力を折りたたむ
 
@@ -295,6 +347,10 @@ TODO:
 
 アクティビティバーの「エクスプローラー」が選択されているとき(エクスプローラービュー)、アクティブなファイルの相対パスをコピーします。
 (`Shift`+`Alt`+`C` は「絶対パス」をコピーします。)
+
+:::details image
+![Ctrl+K Ctrl+Shift+C](https://storage.googleapis.com/zenn-user-upload/f919104055df-20220818.gif)
+:::
 
 ### `Ctrl`+`;` `C`
 
