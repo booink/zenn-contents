@@ -151,6 +151,8 @@ TODO:
 
 エディタエリアの文字列をコピーします。
 
+MEMO: めっちゃ使う
+
 :::details image
 ![Ctrl+C](https://storage.googleapis.com/zenn-user-upload/2c70da99e200-20220818.gif)
 :::
@@ -348,6 +350,8 @@ TODO:
 アクティビティバーの「エクスプローラー」が選択されているとき(エクスプローラービュー)、アクティブなファイルの相対パスをコピーします。
 (`Shift`+`Alt`+`C` は「絶対パス」をコピーします。)
 
+MEMO： 使えそう
+
 :::details image
 ![Ctrl+K Ctrl+Shift+C](https://storage.googleapis.com/zenn-user-upload/f919104055df-20220818.gif)
 :::
@@ -379,8 +383,14 @@ TODO:
 コマンドID: `editor.action.addSelectionToNextFindMatch`
 <!-- "when": "editorFocus" -->
 
-エディタエリアで選択した文字列を、そのエディタエリア内で検索する。
+エディタエリアで選択した文字列を、そのエディタエリア内で検索します。
 `Ctrl`+`D` を連続でタイプすると、次の検索結果に移動します。
+
+MEMO: 使う
+
+:::details image
+![Ctrl+D](https://storage.googleapis.com/zenn-user-upload/79e30ea3fe85-20220819.gif)
+:::
 
 ### `Ctrl`+`Shift`+`D`
 
@@ -390,6 +400,10 @@ TODO:
 <!-- "when": "viewContainer.workbench.view.debug.enabled" -->
 
 アクティビティバーの「Run & Debug (実行とデバッグ)」を選択状態にします。(サイドバーに実行とデバッグが表示されます。)
+
+:::details image
+![Ctrl+Shift+D](https://storage.googleapis.com/zenn-user-upload/83bdfa818a64-20220819.gif)
+:::
 
 ### `Shift`+`Alt`+`D`
 
@@ -450,6 +464,12 @@ TODO:
 
 アクティビティバーの「Explorer (エクスプローラー)」を選択状態にします。(サイドバーにフォルダツリーが表示されます。)
 
+MEMO: 使う
+
+:::details image
+![Ctrl+Shift+E](https://storage.googleapis.com/zenn-user-upload/3a03a7e4497d-20220819.gif)
+:::
+
 #### workbench.action.quickOpenNavigatePreviousInFilePicker
 
 コマンドID: `workbench.view.explorer`
@@ -466,6 +486,10 @@ TODO:
 
 アクティビティバーの「Explorer (エクスプローラー)」を選択状態にして、サイドバーに「開いているエディター」のパネルが追加され、エディタエリアで表示されているファイルの一覧が表示されます。
 
+:::details image
+![Ctrl+K_E](https://storage.googleapis.com/zenn-user-upload/5fc43db2e4f6-20220819.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`E`
 
 #### keybindings.editor.defineWhenExpression
@@ -474,6 +498,10 @@ TODO:
 <!-- "when": "inKeybindings && keybindingFocus" -->
 
 キーボードショートカットビューにフォーカスしているとき、選択しているキーボードショートカットの「When (いつ)」の値を編集状態にします。
+
+:::details image
+![Ctrl+K Ctrl+E](https://storage.googleapis.com/zenn-user-upload/fc012441aa04-20220819.gif)
+:::
 
 ### `Ctrl`+`;` `E`
 
@@ -505,6 +533,12 @@ TODO:
 エディタエリアをフォーカスしているとき、エディタエリアの文字列を検索するフォームを表示します。
 `Esc` で検索を解除できます。
 
+MEMO: 使う
+
+:::details image
+![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/ed8f8232b02e-20220819.gif)
+:::
+
 #### editor.action.extensioneditor.showfind
 
 コマンドID: `editor.action.extensioneditor.showfind`
@@ -533,12 +567,20 @@ TODO:
 
 設定ビューで、検索フォームにフォーカスする。
 
+:::detail image
+![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/d8840611fe2d-20220819.gif)
+:::
+
 #### keybindings.editor.searchKeybindings
 
 コマンドID: `keybindings.editor.searchKeybindings`
 <!-- "when": "inKeybindings" -->
 
 キーボードショートカットビューで、フィルタする入力フォームにフォーカスする。
+
+:::details image
+![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/a7e1ab7f118c-20220819.gif)
+:::
 
 #### list.find
 
@@ -561,12 +603,22 @@ TODO:
 
 パネルエリアの「Problems (問題)」タブにフォーカスしているとき、フィルタする入力フォームにフォーカスします。
 
+:::details image
+![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/a8fdcfb1ed69-20220819.gif)
+:::
+
 #### ターミナル: 検索にフォーカスを置く
 
 コマンドID: `workbench.action.terminal.focusFind`
 <!-- "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported" -->
 
 パネルエリアの「ターミナル」で、ターミナル内の文字列を検索するフォームを表示します。
+
+MEMO: 使う
+
+:::details image
+![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/03ff347705e2-20220819.gif)
+:::
 
 ### `Ctrl`+`Shift`+`F`
 
