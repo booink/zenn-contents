@@ -1610,7 +1610,9 @@ https://zed.dev/
 > Introducing Zed – A lightning-fast, collaborative code editor written in Rust.
 
 Rust で作られた `lightning-fast` なエディタ。(2回目)
-いや、嘘です。まだ作られているかどうかもわかりません。
+~~いや、嘘です。まだ作られているかどうかもわかりません。~~
+【追記】動きがあったようです。「起動がめちゃ軽い」とのこと！
+https://twitter.com/cocopon/status/1560249329281298436?s=20&t=4WWPN48CBbNSdo-nA-Sv-Q
 
 https://qiita.com/access3151fq/items/4b031d856550d749ffe4
 
