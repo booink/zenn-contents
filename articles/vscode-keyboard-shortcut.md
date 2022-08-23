@@ -567,7 +567,7 @@ TODO:
 
 設定ビューで、検索フォームにフォーカスする。
 
-:::detail image
+:::details image
 ![Ctrl+F](https://storage.googleapis.com/zenn-user-upload/d8840611fe2d-20220819.gif)
 :::
 
@@ -635,12 +635,20 @@ TODO:
 
 アクティビティバーの「Search (検索)」を選択状態にして、サイドバーの入力フォームにフォーカスします。
 
+:::details image
+![Ctrl+Shift+F](https://storage.googleapis.com/zenn-user-upload/e72ff924c957-20220823.gif)
+:::
+
 #### ターミナル: ワークスペースで検索
 
 コマンドID: `workbench.action.terminal.searchWorkspace`
 <!-- "when": "terminalFocus && terminalProcessSupported && terminalTextSelected" -->
 
 パネルエリアの「ターミナル」でターミナル内で文字列を選択中に、アクティビティバーの「Search (検索)」を選択状態にして、文字列の検索結果一覧をサイドバーに表示します。
+
+:::details image
+![Ctrl+Shift+F](https://storage.googleapis.com/zenn-user-upload/c377fd2ea143-20220823.gif)
+:::
 
 ### `Shift`+`Alt`+`F`
 
@@ -650,6 +658,10 @@ TODO:
 <!-- "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor" -->
 
 エディタエリアの内容を、ファイルタイプごとの規定のフォーマッタでフォーマットします。
+
+:::details image
+![Shift+Alt+F](https://storage.googleapis.com/zenn-user-upload/e517dce9e058-20220823.gif)
+:::
 
 #### ドキュメントのフォーマット
 
@@ -671,6 +683,11 @@ TODO:
 <!-- "when": "explorerResourceIsFolder && explorerViewletVisible && filesExplorerFocus && !inputFocus" -->
 
 サイドバーのエクスプローラーにフォーカスがあるとき、アクティビティバーの「Search (検索)」を選択状態にして、エディタエリアで開いているファイルの階層以下を対象に検索フォームにフォーカスします。
+エクスプローラーで任意のフォルダを選択しているとき、選択しているフォルダの階層以下を対象に検索フォームにフォーカスします。
+
+:::details image
+![Shift+Alt+F](https://storage.googleapis.com/zenn-user-upload/79e5455fef7f-20220823.gif)
+:::
 
 #### ノートブック: ノートブックのフォーマット
 
@@ -727,6 +744,10 @@ TODO:
 
 行/列番号入力フォームが表示されます。
 
+:::details image
+![Ctrl+G](https://storage.googleapis.com/zenn-user-upload/b72a403e8574-20220823.gif)
+:::
+
 ### `Ctrl`+`Shift`+`G`
 
 #### 表示: ソース管理 を表示
@@ -735,6 +756,10 @@ TODO:
 <!-- "when": "workbench.scm.active" -->
 
 アクティビティバーの「Source Control (ソース管理)」を選択状態にして、サイドバーにソース管理を表示します。
+
+:::details image
+![Ctrl+Shift+G](https://storage.googleapis.com/zenn-user-upload/6c116c11ef5e-20220823.gif)
+:::
 
 ## H
 
@@ -748,6 +773,11 @@ TODO:
 <!-- "when": "editorFocus || editorIsOpen" -->
 
 エディタエリアの文字列を置換するフォームが表示されます。
+`Ctrl`+`H` を連続でタイプすると、置換前と置換後のフォームのフォーカスを移動します。
+
+:::details image
+![Ctrl+H](https://storage.googleapis.com/zenn-user-upload/0f4df4178471-20220823.gif)
+:::
 
 ### `Alt`+`H`
 
@@ -765,6 +795,10 @@ TODO:
 コマンドID: `workbench.action.replaceInFiles`
 
 アクティビティバーの「Search (検索)」を選択状態にして、サイドバーに置換フォームを表示し検索文字列入力フォームにフォーカスします。
+
+:::details image
+![Ctrl+Shift+H](https://storage.googleapis.com/zenn-user-upload/68b2664949f2-20220823.gif)
+:::
 
 ### `Shift`+`Alt`+`H`
 
