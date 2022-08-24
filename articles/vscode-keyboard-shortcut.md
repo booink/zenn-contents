@@ -858,6 +858,10 @@ TODO:
 エディタエリアがフォーカスしているとき、カーソル位置で可能な入力候補を表示します。
 再度 `Ctrl`+`I` タイプすると、[toggleSuggestionDetails](#togglesuggestiondetails) が表示されます。
 
+:::details image
+![Ctrl+I](https://storage.googleapis.com/zenn-user-upload/d2aa5929b58f-20220824.gif)
+:::
+
 #### toggleSuggestionDetails
 
 コマンドID: `toggleSuggestionDetails`
@@ -866,6 +870,10 @@ TODO:
 エディタエリアで入力候補を表示しているとき、候補の詳細を表示します。
 再度 `Ctrl`+`I` タイプすると候補の詳細を閉じます。
 つまり、[候補をトリガー](#候補をトリガー) と [toggleSuggestionDetails](#togglesuggestiondetails) が交互に切り替わります。
+
+:::details image (「候補をトリガー」と同様)
+![Ctrl+I](https://storage.googleapis.com/zenn-user-upload/d2aa5929b58f-20220824.gif)
+:::
 
 ### `Ctrl`+`Shift`+`I`
 
@@ -885,6 +893,10 @@ TODO:
 
 エディタエリアがフォーカスしているとき、選択した文字列の末尾にカーソルを移動し挿入モードになります。
 複数行選択されているときは、複数行の末尾に挿入モードになります。
+
+:::details image
+![Shift+Alt+I](https://storage.googleapis.com/zenn-user-upload/8954c043289b-20220824.gif)
+:::
 
 ### `Ctrl`+`K` `Ctrl`+`I`
 
@@ -929,6 +941,10 @@ TODO:
 
 パネルエリアの表示 / 非表示を切り替えます。
 
+:::details image
+![Ctrl+J](https://storage.googleapis.com/zenn-user-upload/333373d6865a-20220824.gif)
+:::
+
 ### `Ctrl`+`Shift`+`J`
 
 #### workbench.action.search.toggleQueryDetails
@@ -937,6 +953,10 @@ TODO:
 <!-- "when": "inSearchEditor || searchViewletFocus" -->
 
 エディタエリアで検索ビューを開いているとき、詳細フィルターのフォームの表示 / 非表示を切り替えます。
+
+:::details image
+![Ctrl+Shift+J](https://storage.googleapis.com/zenn-user-upload/1afaf8baf654-20220824.gif)
+:::
 
 ### `Alt`+`Windows`+`J`
 
@@ -965,6 +985,10 @@ TODO:
 
 エディタエリアをフォーカスしているとき、折りたたみを全て展開します。
 
+:::details image
+![Ctrl+K_Ctrl+J](https://storage.googleapis.com/zenn-user-upload/d12a07d65ac3-20220824.gif)
+:::
+
 ## K
 
 `Ctrl`+`K` は、エディタエリアの表示関連の修飾キーに使われているため、それ以外のショートカットキーをリストアップします。
@@ -978,6 +1002,10 @@ TODO:
 
 エディタエリアのカーソルがある行を削除します。
 
+:::details image
+![Ctrl+Shift+K](https://storage.googleapis.com/zenn-user-upload/0ceb7101042d-20220824.gif)
+:::
+
 ### `Alt`+`K`
 
 #### keybindings.editor.recordSearchKeys
@@ -987,6 +1015,10 @@ TODO:
 
 キーボードショートカットビューのフィルタ入力フォームにフォーカスしているとき、このキー (`Alt`+`K`) の次の入力キーを記憶します。
 `Esc` で記憶モードを抜けます。
+
+:::details image
+![Alt+K](https://storage.googleapis.com/zenn-user-upload/4f65d584bb9e-20220824.gif)
+:::
 
 ## L
 
@@ -1000,6 +1032,10 @@ TODO:
 <!-- "when": "textInputFocus" -->
 
 エディタエリアのカーソルがある１行を選択状態にします。
+
+:::details image
+![Ctrl+L](https://storage.googleapis.com/zenn-user-upload/c7f69a8c7bdf-20220824.gif)
+:::
 
 ### `Ctrl`+`L`
 
@@ -1045,6 +1081,10 @@ TODO:
 エディタエリアで選択中の文字列が一致する全ての出現箇所を選択します。
 `Esc` で選択を解除します。
 
+:::details image
+![Ctrl+Shift+L](https://storage.googleapis.com/zenn-user-upload/062c48cfd79f-20220824.gif)
+:::
+
 #### addCursorsAtSearchResults
 
 コマンドID: `addCursorsAtSearchResults`
@@ -1067,6 +1107,10 @@ TODO:
 <!-- "when": "editorTextFocus && foldingEnabled" -->
 
 エディタエリアでカーソルがある行の折りたたみを切り替えます。
+
+:::details image
+![Ctrl+K_Ctrl+L](https://storage.googleapis.com/zenn-user-upload/f74468ad4887-20220824.gif)
+:::
 
 ### `Ctrl`+`;` `L`
 
@@ -1114,6 +1158,10 @@ TODO:
 
 パネルエリアの「Problems (問題)」タブの表示 / 非表示を切り替えます。
 
+:::details image
+![Ctrl+Shift+M](https://storage.googleapis.com/zenn-user-upload/cfa1ad55894a-20220824.gif)
+:::
+
 ### `Ctrl`+`K` `M`
 
 #### 言語モードの変更
@@ -1143,6 +1191,10 @@ TODO:
 
 無題の新規ファイルを新しいタブで開きます。
 
+:::details image
+![Ctrl+N](https://storage.googleapis.com/zenn-user-upload/d93fac52ca6d-20220824.gif)
+:::
+
 ### `Ctrl`+`Shift`+`N`
 
 #### 新しいウィンドウ
@@ -1159,6 +1211,10 @@ TODO:
 
 無題の新規ファイルを、ファイルの種類を選択後に新しいタブで開きます。
 
+:::details image
+![Ctrl+Alt+Windows+N](https://storage.googleapis.com/zenn-user-upload/17458ba6d512-20220824.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`N`
 
 #### Git: 選択した範囲のステージを解除
@@ -1167,6 +1223,10 @@ TODO:
 <!-- "when": "isInDiffEditor" -->
 
 エディタエリアの差分ビューで、選択した範囲のステージを解除します。
+
+:::details image
+![Ctrl+K_Ctrl+N](https://storage.googleapis.com/zenn-user-upload/7c2e35bafd8e-20220824.gif)
+:::
 
 ## O
 
@@ -1180,6 +1240,10 @@ TODO:
 <!-- "when": "true" -->
 
 ファイルを開くプロンプトを表示します。
+
+:::details image
+![Ctrl+O](https://storage.googleapis.com/zenn-user-upload/cc4994057bad-20220824.gif)
+:::
 
 #### ファイル: 開く
 
@@ -1211,6 +1275,10 @@ TODO:
 プロンプトを表示して、`@` が入力された状態になります。
 (プロンプトの先頭を `@` から始めると、エディタエリアで開いているファイルのシンボルを指定して移動することができます。)
 
+:::details image
+![Ctrl+Shift+O](https://storage.googleapis.com/zenn-user-upload/17f31cb5c3e6-20220824.gif)
+:::
+
 ### `Shift`+`Alt`+`O`
 
 #### インポートを整理
@@ -1238,6 +1306,10 @@ TODO:
 
 フォルダを開くプロンプトを表示します。
 フォルダを開くと、そのウィンドウを閉じて開き直します。
+
+:::details image
+![Ctrl+K_Ctrl+O](https://storage.googleapis.com/zenn-user-upload/8cac5f24df0b-20220824.gif)
+:::
 
 #### workbench.action.files.openLocalFolder
 
@@ -1267,6 +1339,10 @@ TODO:
 
 ファイルを開くプロンプトを表示します。
 
+:::details image
+![Ctrl+P](https://storage.googleapis.com/zenn-user-upload/d30d4757111d-20220824.gif)
+:::
+
 #### workbench.action.quickOpenNavigateNextInFilePicker
 
 コマンドID: `workbench.action.quickOpenNavigateNextInFilePicker`
@@ -1290,6 +1366,10 @@ TODO:
 
 キーボードショートカットビューにフォーカスしているとき、優先順位で並び替えの有効 / 無効を切り替えます。
 
+:::details image
+![Alt+P](https://storage.googleapis.com/zenn-user-upload/a6351c98aa14-20220824.gif)
+:::
+
 #### toggleSearchPreserveCase
 
 コマンドID: `toggleSearchPreserveCase`
@@ -1306,6 +1386,10 @@ TODO:
 コマンドパレットを表示します。
 [`F1`](#f1-1) と同様です。
 
+:::details image
+![Ctrl+Shift+P](https://storage.googleapis.com/zenn-user-upload/d26bf76be988-20220824.gif)
+:::
+
 #### workbench.action.quickOpenNavigatePreviousInFilePicker
 
 コマンドID: `workbench.action.quickOpenNavigatePreviousInFilePicker`
@@ -1321,6 +1405,10 @@ TODO:
 
 エディタエリアで開いているファイルの絶対パスをクリップボードにコピーします。
 
+:::details image
+![Ctrl+K_P](https://storage.googleapis.com/zenn-user-upload/444df6b46488-20220824.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`P`
 
 #### 表示: すべてのエディターを外観別に表示
@@ -1328,6 +1416,10 @@ TODO:
 コマンドID: `workbench.action.showAllEditors`
 
 ウィンドウ内のエディタエリアで開いている全てのファイルをリストアップした、ファイルを開くプロンプトを表示します。
+
+:::details image
+![Ctrl+K_Ctrl+P](https://storage.googleapis.com/zenn-user-upload/c80851bbddec-20220824.gif)
+:::
 
 ## Q
 
