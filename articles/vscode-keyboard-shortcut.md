@@ -1656,6 +1656,10 @@ TODO:
 
 エディタエリアで開いている全てのファイルの編集内容を保存します。
 
+:::details image
+![Ctrl+K_S](https://storage.googleapis.com/zenn-user-upload/477edb3e37c7-20220825.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`S`
 
 #### 基本設定: キーボード ショートカットを開く
@@ -1664,6 +1668,10 @@ TODO:
 
 キーボードショートカットビューを開きます。
 
+:::details image
+![Ctrl+K_Ctrl+S](https://storage.googleapis.com/zenn-user-upload/b78e07e1e0e7-20220825.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`Shift`+`S`
 
 #### ファイル: フォーマットしないで保存
@@ -1671,6 +1679,10 @@ TODO:
 コマンドID: `workbench.action.files.saveWithoutFormatting`
 
 エディタエリアで開いているファイルの編集内容を、フォーマットしないで保存します。
+
+:::details image
+![Ctrl+K_Ctrl+Shift+S](https://storage.googleapis.com/zenn-user-upload/94610d48f3b8-20220825.gif)
+:::
 
 ### `Ctrl`+`K` `Ctrl`+`Alt`+`S`
 
