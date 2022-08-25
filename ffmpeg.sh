@@ -1,0 +1,1 @@
+ffmpeg -i /mnt/c/Users/takkj/Videos/Captures/vscode-keyboard-shortcut.md\ -\ zenn\ \[WSL_\ Ubuntu\]\ -\ Visual\ Studio\ Code\ 2022-08-17\ 11-46-46.mp4 -s 720x405 Ctrl+K_Ctrl+B.gif
