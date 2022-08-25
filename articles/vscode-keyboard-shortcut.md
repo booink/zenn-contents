@@ -1434,6 +1434,11 @@ TODO:
 クイックオープンビューを表示します。
 `Ctrl`+`Q` を連続でタイプするか、`Ctrl` をタイプしたまま上下キーをタイプして、表示するビューを選択します。
 `Ctrl`+`Q` の連続タイプで [workbench.action.quickOpenNavigateNextInViewPicker](#workbenchactionquickopennavigatenextinfilepicker) に状態が遷移します。
+`Ctrl` キーを離した時点でフォーカスしているサイドバーのビューやパネルを表示します。
+
+:::details image
+![Ctrl+Q](https://storage.googleapis.com/zenn-user-upload/d2308c6cdc37-20220825.gif)
+:::
 
 #### workbench.action.quickOpenNavigateNextInViewPicker
 
@@ -1441,6 +1446,10 @@ TODO:
 <!-- "when": "inQuickOpen && inViewsPicker" -->
 
 クイックオープンビューを表示しているとき、表示するビューの次の選択肢にフォーカスします。
+
+:::details image (workbench.action.quickOpenView と同様です)
+![Ctrl+Q](https://storage.googleapis.com/zenn-user-upload/d2308c6cdc37-20220825.gif)
+:::
 
 ### `Ctrl`+`Shift`+`Q`
 
@@ -1451,6 +1460,10 @@ TODO:
 
 クイックオープンビューを表示しているとき、表示するビューの前の選択肢にフォーカスします。
 [workbench.action.quickOpenNavigateNextInViewPicker](#workbenchactionquickopennavigatenextinfilepicker) の逆です。
+
+:::details image
+![Ctrl+Shift+Q](https://storage.googleapis.com/zenn-user-upload/6284e5cb5c3f-20220825.gif)
+:::
 
 ### `Ctrl`+`K` `Ctrl`+`Q`
 
@@ -1503,6 +1516,10 @@ TODO:
 
 検索ビューの入力フォームにフォーカスしているとき、入力文字列の正規表現の使用を切り替えます。
 
+:::details image
+![Alt+R](https://storage.googleapis.com/zenn-user-upload/a51018223482-20220825.gif)
+:::
+
 #### toggleSearchRegex
 
 コマンドID: `toggleSearchRegex`
@@ -1510,12 +1527,20 @@ TODO:
 
 検索ビューにフォーカスしているとき、正規表現の使用を切り替えます。
 
+:::details image
+![Alt+R](https://storage.googleapis.com/zenn-user-upload/551242221063-20220825.gif)
+:::
+
 #### ターミナル: 正規表現を使用した検索に切り替える
 
 コマンドID: `workbench.action.terminal.toggleFindRegex`
 <!-- "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported" -->
 
 パネルエリアのターミナルタブにフォーカスしているとき、検索フォームを表示して正規表現の使用を切り替えます。
+
+:::details image
+![Alt+R](https://storage.googleapis.com/zenn-user-upload/4d95053b88c2-20220825.gif)
+:::
 
 ### `Ctrl`+`Alt`+`R`
 
@@ -1571,8 +1596,11 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 コマンドID: `git.revertSelectedRanges`
 <!-- "when": "isInDiffEditor" -->
 
-エディタエリアの差分ビューで、差分を元に戻します。
-(※文字列や行を選択しても全ての差分が元に戻るので、コマンドタイトルが間違ってる？)
+エディタエリアの差分ビューで、フォーカスしている箇所の差分を元に戻します。
+
+:::details image
+![Ctrl+K_Ctrl+R](https://storage.googleapis.com/zenn-user-upload/92677d5e9403-20220825.gif)
+:::
 
 ### `Ctrl`+`;` `Ctrl`+`R`
 
@@ -1595,6 +1623,10 @@ TODO:
 
 エディタエリアで開いているファイルの編集内容を保存します。
 
+:::details image
+![Ctrl+S](https://storage.googleapis.com/zenn-user-upload/cae032e1047c-20220825.gif)
+:::
+
 ### `Ctrl`+`Shift`+`S`
 
 #### ファイル: 名前を付けて保存
@@ -1602,6 +1634,10 @@ TODO:
 コマンドID: `workbench.action.files.saveAs`
 
 エディタエリアで開いているファイルの編集内容を、名前を付けて保存します。
+
+:::details image
+![Ctrl+Shift+S](https://storage.googleapis.com/zenn-user-upload/f0491051f70b-20220825.gif)
+:::
 
 ### `Ctrl`+`Shift`+`S`
 
