@@ -1691,8 +1691,11 @@ TODO:
 コマンドID: `git.stageSelectedRanges`
 <!-- "when": "isInDiffEditor" -->
 
-エディタエリアの差分ビューで、選択した範囲をステージにします。
-TODO: ステージしますの表現が違和感
+エディタエリアの差分ビューで、選択した範囲をステージ状態にします。
+
+:::details image
+![Ctrl+K_Ctrl+Alt+S](https://storage.googleapis.com/zenn-user-upload/c3f93eee354e-20220825.gif)
+:::
 
 ## T
 
