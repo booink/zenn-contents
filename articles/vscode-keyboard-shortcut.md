@@ -1710,6 +1710,10 @@ TODO:
 プロンプトを表示して、`#` が入力された状態になります。
 TODO: @と#の違いを理解する
 
+:::details image
+![Ctrl+T](https://storage.googleapis.com/zenn-user-upload/7fb12125d004-20220905.gif)
+:::
+
 ### `Ctrl`+`Shift`+`T`
 
 #### 表示: 閉じたエディターを再度開く
@@ -1718,6 +1722,10 @@ TODO: @と#の違いを理解する
 
 エディタエリアで閉じたファイルを、別のタブで再度開きます。
 `Ctrl`+`Shift`+`T` を連続でタイプすると、最近から遡って閉じたファイルを開きます。
+
+:::details image
+![Ctrl+Shift+T](https://storage.googleapis.com/zenn-user-upload/fad194b0f01e-20220905.gif)
+:::
 
 ### `Ctrl`+`K` `T`
 
@@ -1743,6 +1751,10 @@ TODO:
 
 配色テーマを選択するプロンプトが表示されます。
 
+:::details image
+![Ctrl+K_Ctrl+T](https://storage.googleapis.com/zenn-user-upload/d4a16c82b0ee-20220905.gif)
+:::
+
 ## U
 
 TODO:
@@ -1757,6 +1769,10 @@ TODO:
 エディタエリアのカーソル位置を、前にカーソルが当たっていた位置に戻します。
 `Ctrl`+`U` を連続でタイプすると、遡ってカーソル位置を戻します。
 
+:::details image
+![Ctrl+U](https://storage.googleapis.com/zenn-user-upload/2997ea7bbcf2-20220905.gif)
+:::
+
 ### `Ctrl`+`Shift`+`U`
 
 #### 表示: 出力 の切り替え
@@ -1765,6 +1781,10 @@ TODO:
 <!-- "when": "workbench.panel.output.active" -->
 
 パネルエリアの出力タブにフォーカスしてパネルエリアを開きます。
+
+:::details image
+![Ctrl+Shift+U](https://storage.googleapis.com/zenn-user-upload/a5e719e56f50-20220905.gif)
+:::
 
 ### `Ctrl`+`K` `U`
 
@@ -1776,6 +1796,10 @@ TODO:
 今開いているタブは残ります。
 エディタエリア以外にフォーカスしているときは、直近で編集しているエディタグループ以外のエディタグループを閉じます。
 
+:::details image
+![Ctrl+K_U](https://storage.googleapis.com/zenn-user-upload/3b8cf9e2f109-20220905.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`U`
 
 #### 行コメントの削除
@@ -1785,6 +1809,10 @@ TODO:
 
 エディタエリアのカーソルがある１行を行コメントにします。
 すでに行コメントになっている行にカーソルがあるときは、行コメントを外します。
+
+:::details image
+![Ctrl+K_Ctrl+U](https://storage.googleapis.com/zenn-user-upload/875cad720c8c-20220905.gif)
+:::
 
 ## V
 
