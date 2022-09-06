@@ -1810,6 +1810,8 @@ TODO:
 エディタエリアのカーソルがある１行を行コメントにします。
 すでに行コメントになっている行にカーソルがあるときは、行コメントを外します。
 
+TODO: `Ctrl`+`/` (`editor.action.commentLine`) との違いを調べる。
+
 :::details image
 ![Ctrl+K_Ctrl+U](https://storage.googleapis.com/zenn-user-upload/875cad720c8c-20220905.gif)
 :::
@@ -1826,12 +1828,20 @@ TODO:
 
 クリップボードに保存している内容を貼り付けます。
 
+:::details image
+![Ctrl+V](https://storage.googleapis.com/zenn-user-upload/6376d94ab919-20220905.gif)
+:::
+
 #### ターミナル: アクティブな端末に貼り付け
 
 コマンドID: `workbench.action.terminal.paste`
 <!-- "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported" -->
 
 パネルエリアのターミナルタブにフォーカスしているとき、クリップボードに保存している内容をターミナルのカーソル位置に貼り付けます。
+
+:::details image
+![Ctrl+V](https://storage.googleapis.com/zenn-user-upload/fcd4a06b5751-20220906.gif)
+:::
 
 #### workbench.action.terminal.sendSequence
 
@@ -1846,6 +1856,10 @@ TODO:
 <!-- "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus" -->
 
 エクスプローラがフォーカスされているとき、クリップボードの内容がファイルなら、ファイルを複製します。
+
+:::details image
+![Ctrl+V](https://storage.googleapis.com/zenn-user-upload/fccb2b53c8a9-20220906.gif)
+:::
 
 ### `Ctrl`+`Shift`+`V`
 
@@ -1862,6 +1876,11 @@ TODO:
 <!-- "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported" -->
 
 パネルエリアのターミナルタブにフォーカスしているとき、クリップボードに保存している内容をターミナルのカーソル位置に貼り付けます。
+`Ctrl`+`V` と同様です。
+
+:::details image
+![Ctrl+Shift+V](https://storage.googleapis.com/zenn-user-upload/df6896a8beeb-20220906.gif)
+:::
 
 #### Markdown: プレビューを開く
 
@@ -1891,6 +1910,10 @@ TODO:
 
 エディタエリアでフォーカスしているタブのみを閉じます。
 
+:::details image
+![Ctrl+W](https://storage.googleapis.com/zenn-user-upload/f710b3c698ab-20220906.gif)
+:::
+
 #### workbench.action.closeGroup
 
 コマンドID: `workbench.action.closeGroup`
@@ -1914,6 +1937,10 @@ TODO:
 
 エディタエリアにフォーカスしているとき、検索フォームの「単語単位で検索する」の on / off を切り替えます。
 
+:::details image
+![Alt+W](https://storage.googleapis.com/zenn-user-upload/fca979bfe147-20220906.gif)
+:::
+
 #### 検索エディター: 単語単位での検索を切り替える
 
 コマンドID: `toggleSearchEditorWholeWord`
@@ -1921,12 +1948,20 @@ TODO:
 
 検索ビューの検索フォームにフォーカスしているとき、検索フォームの「単語単位で検索する」の on / off を切り替えます。
 
+:::details image
+![Alt+W](https://storage.googleapis.com/zenn-user-upload/b38de23406e9-20220906.gif)
+:::
+
 #### toggleSearchWholeWord
 
 コマンドID: `toggleSearchWholeWord`
 <!-- "when": "searchViewletFocus" -->
 
 検索ビューの検索結果にフォーカスしているとき、検索フォームの「単語単位で検索する」の on / off を切り替えます。
+
+:::details image
+![Alt+W](https://storage.googleapis.com/zenn-user-upload/00c0ed37d70b-20220906.gif)
+:::
 
 #### ターミナル: 単語単位での検索に切り替える
 
