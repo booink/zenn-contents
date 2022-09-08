@@ -1970,6 +1970,10 @@ TODO:
 
 パネルエリアのターミナルにフォーカスしているとき、検索フォームの「単語単位で検索する」の on / off を切り替えます。
 
+:::details image
+![Alt+W](https://storage.googleapis.com/zenn-user-upload/7732705d63b5-20220908.gif)
+:::
+
 ### `Ctrl`+`Shift`+`W`
 
 #### ウィンドウを閉じる
@@ -1977,6 +1981,10 @@ TODO:
 コマンドID: `workbench.action.closeWindow`
 
 VSCode のウィンドウを閉じます。
+
+:::details image
+![Ctrl+Shift+W](https://storage.googleapis.com/zenn-user-upload/2e5cc88b4281-20220908.gif)
+:::
 
 ### `Ctrl`+`K` `W`
 
@@ -1986,6 +1994,10 @@ VSCode のウィンドウを閉じます。
 
 エディタエリアでフォーカスしているエディタグループ内のタブを全て閉じます。
 
+:::details image
+![Ctrl+K_W](https://storage.googleapis.com/zenn-user-upload/e4814efeecfd-20220908.gif)
+:::
+
 ### `Ctrl`+`K` `Ctrl`+`W`
 
 #### 表示: すべてのエディターを閉じる
@@ -1993,6 +2005,10 @@ VSCode のウィンドウを閉じます。
 コマンドID: `workbench.action.closeAllEditors`
 
 エディタエリアのタブを (フォーカス外のエディタグループも含めて) 全て閉じます。
+
+:::details image
+![Ctrl+K_Ctrl+W](https://storage.googleapis.com/zenn-user-upload/cd9cd6bb5aa7-20220908.gif)
+:::
 
 ### `Ctrl`+`K` `Ctrl`+`Shift`+`W`
 
@@ -2002,6 +2018,10 @@ VSCode のウィンドウを閉じます。
 
 エディタエリアのタブを (フォーカス外のエディタグループも含めて) 全て閉じます。
 TODO: `Ctrl`+`K` `Ctrl`+`W` との違いを調べる
+
+:::details image
+![Ctrl+K_Ctrl+Shift+W](https://storage.googleapis.com/zenn-user-upload/e3db93e0b812-20220908.gif)
+:::
 
 ## X
 
