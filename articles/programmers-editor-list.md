@@ -37,6 +37,7 @@ ITエンジニアにとって欠かせない必須のツール「エディタ」
 | [Coda (Nova)](#coda-nova) | 有料 | GUI | macOS | | 2007年4月23日 ([Wikipedia](https://en.wikipedia.org/wiki/Coda_(web_development_software)) から引用) | 2020年11月5日 ([Wikipedia](https://en.wikipedia.org/wiki/Coda_(web_development_software)) から引用) |
 | [Codeanywhere](#codeanywhere) | 有料 | GUI | Windows,macOS,Linux | JavaScript | 2013年5月22日 ([Wikipedia](https://en.wikipedia.org/wiki/Codeanywhere) から引用) | - |
 | [codenvy(Eclipse Che)](#codenvyeclipse-che) | 無料 | GUI | Windows,macOS,Linux | Java | 2014年10月 ([Wikipedia](https://en.wikipedia.org/wiki/Eclipse_Che) から引用) | - |
+| [Codelobster](#codelobster) | 有料 | GUI | Windows,macOS,Linux | C++ | - | 2023年2月9日 ([Wikipedia](https://en.wikipedia.org/wiki/Codelobster) から引用) |
 | [Codespaces](#codespaces) | 有料 | GUI (デスクトップ、ブラウザ) | Windows,macOS,Linux | ? | 2021年8月11日 ([公式サイト](https://github.co.jp/features/codespaces) から引用) | - |
 | [CotEditor](#coteditor) | 無料 | GUI | macOS | Swift | 2009年5月1日 ([Wikipedia](https://ja.wikipedia.org/wiki/CotEditor) から引用) | 2022年7月30日 |
 | [Eclipse](#eclipse) | 無料 | GUI | Windows,macOS,Linux | Java [Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) | 2001年11月29日 ([Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) | 2022年6月15日 ([Wikipedia](https://ja.wikipedia.org/wiki/Eclipse_(%E7%B5%B1%E5%90%88%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83)) から引用) |
@@ -1972,6 +1973,30 @@ Pure Go で書かれた、シンプルな見た目のエディタです。
 | 初版リリース | 2020年1月3日 |
 | 最終アップデート | 2022年7月26日 |
 
+### Codelobster
+
+http://www.codelobster.com/
+
+> CodeLobster IDE streamlines and simplifies the PHP development process. You don't need to keep in mind the names of functions, arguments, tags or their attributes -- we've implemented all these for you with autocomplete features for PHP, HTML, JavaScript and even CSS. And you can always get necessary help information by pressing F1 or using the special Help control.
+
+> CodeLobster IDEは、PHP開発プロセスを合理化し簡素化します。関数、引数、タグやその属性の名前を覚えておく必要はありません -- PHP、HTML、JavaScript、そしてCSSのオートコンプリート機能により、これらすべてを実装しています。また、F1キーを押すか、特別なヘルプコントロールを使用することで、いつでも必要なヘルプ情報を得ることができます。
+
+PHPとWeb開発に特化しているエディタのようです。
+PHP使うならHTML、JS、CSSはほぼ確実に一緒に触れる必要があるし、それだけに機能が絞られているのが良いですね。
+
+| 項目名 |  |
+| --- | --- |
+| 読み方 | コードロブスター？ |
+| 公式サイト | http://www.codelobster.com/ |
+| 公式リポジトリ | - |
+| Wikipedia | https://en.wikipedia.org/wiki/Codelobster |
+| 料金 | 有料 |
+| 種別 | GUI テキストエディタ |
+| 対応OS | Windows,macOS,Linux |
+| 開発言語 | C++ |
+| 初版リリース | - |
+| 最終アップデート | 2023年2月9日 |
+
 ## 私にとっての最強のエディタ
 
 2022年時点で、エディタ迷子の方に私がオススメしたいエディタは「[Visual Studio Code (VSCode)](#visual-studio-code)」です。
@@ -2007,6 +2032,7 @@ Pure Go で書かれた、シンプルな見た目のエディタです。
 
 みなさんが **推しエディタ** に巡り会えますように。
 
+<!--
 ## 宣伝
 
 (※こちらの宣伝は 2022/9/1 以降に削除致します。)
@@ -2024,3 +2050,4 @@ Pure Go で書かれた、シンプルな見た目のエディタです。
 関西圏のエンジニアの方に是非集まっていただいて、
 「昔はこんなエディタもあった」「ずっとこのエディタ使ってます！」「実は…エディタを作ってまして…」
 などなど、エディタを中心にした話題で、普段話せないようなエンジニアトークに華を咲かせてみませんか？
+-->
